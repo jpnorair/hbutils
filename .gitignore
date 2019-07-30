@@ -1,0 +1,18 @@
+# Ignore all pesky mac dot-files
+.DS_Store
+._*
+
+# Build Directories
+/build
+/bin
+
+# XCode project folder
+/xcode_proj
+
+# library builds
+*.o
+*.a
+*.d
+*.gch
+*.h.gch
+
