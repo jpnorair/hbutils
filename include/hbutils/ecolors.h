@@ -17,6 +17,8 @@
 #ifndef hbutils_ecolors_h
 #define hbutils_ecolors_h
 
+// No Color
+#define _E_NRM  "\033[0m"
 
 // Normal colors
 #define _E_RED  "\033[31m"
