@@ -21,6 +21,7 @@
 #include "hbutils/errors.h"
 #include "hbutils/ecolors.h"
 #include "hbutils/hexio.h"
+#include "hbutils/timespec.h"
 
 #include <stdint.h>
 #include <stdio.h>
