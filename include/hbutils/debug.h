@@ -21,7 +21,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "ecolors.h"
+#include "hbutils/ecolors.h"
 
 /// Set __DEBUG__ during compilation to enable debug features (mainly printing)
 

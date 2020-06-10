@@ -14,6 +14,9 @@
  *
  */
 
+#ifndef _hbutils_hexio_h_
+#define _hbutils_hexio_h_
+
 #include <stdio.h>
 #include <stdint.h>
 
@@ -22,4 +25,6 @@ int hbutils_hexnwrite(char* dst, size_t limit, const uint8_t* src, size_t src_by
 int hbutils_binwrite(uint8_t* dst, const char* src);
 int hbutils_binnwrite(uint8_t* dst, size_t limit, const char* src);
 
+
+#endif
 

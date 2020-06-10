@@ -17,14 +17,23 @@
 #ifndef hbutils_h
 #define hbutils_h
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "hbutils/cmdtools.h"
 #include "hbutils/debug.h"
 #include "hbutils/errors.h"
 #include "hbutils/ecolors.h"
 #include "hbutils/hexio.h"
 #include "hbutils/timespec.h"
+#include "hbutils/types.h"
 
 #include <stdint.h>
 #include <stdio.h>
 
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* hbutils_h */
